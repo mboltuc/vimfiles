@@ -63,14 +63,12 @@ if has("gui_mac") || has("gui_macvim")
   let g:gist_browser_command = 'open %URL%'
   let g:gist_clip_command = 'pbcopy'  
   let g:twitvim_browser_cmd = 'open'  " browser to use
-  color moria
 endif
 
 if has("gui_win32") || has("gui_win32s")
   behave mswin
   let g:twitvim_browser_cmd = expand("$HOME/AppData/Local/Google/Chrome/Application/chrome.exe")
   let g:ruby_path = 'c:\Ruby192\bin'
-  color moria
 endif
 
 " ===== STATUS INFORMATION ====

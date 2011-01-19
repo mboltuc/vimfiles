@@ -40,3 +40,4 @@ task :symlink do
     sh "ln -s \"#{pwd}/vimrc\" ~/.vimrc"
   end
 end
+
