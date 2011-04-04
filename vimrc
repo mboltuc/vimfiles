@@ -66,6 +66,7 @@ if has("gui_mac") || has("gui_macvim")
 endif
 
 if has("gui_win32") || has("gui_win32s")
+  source $VIMRUNTIME/mswin.vim
   behave mswin
   let g:twitvim_browser_cmd = expand("$HOME/AppData/Local/Google/Chrome/Application/chrome.exe")
   let g:ruby_path = 'c:\Ruby192\bin'
